@@ -47,8 +47,6 @@ next-env.d.ts
 
 # MongoDB dump or data folders (if used locally)
 dump/
-lib/
-*.mongodb
 
 # Runtime files (in case your backend generates any)
 *.pid
