@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",  // Set the base directory for resolving modules
+    "paths": {
+      "@/*": ["./*"],  // Wildcard alias for all files in the root folder
+      "@data/*": ["./data/*"],  // Alias for the 'data' folder
+      "@components/*": ["./components/*"],  // Alias for the 'components' folder
+      "@public/*": ["./public/*"]  // Alias for the 'public' folder
+    }
+  }
+}
